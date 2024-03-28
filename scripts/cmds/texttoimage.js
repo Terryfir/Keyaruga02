@@ -4,11 +4,15 @@ module.exports = {
 	config: {
 		name: "texttoimage",
 		aliases: ["midjourney", "openjourney", "text2image"],
-		version: "1.3",
+		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "Tạo ảnh từ văn bản của bạn",
+			en: "Create image from your text"
+		},
+		longDescription: {
 			uid: "Tạo ảnh từ văn bản của bạn",
 			en: "Create image from your text"
 		},

@@ -3,11 +3,15 @@ const { getTime } = global.utils;
 module.exports = {
 	config: {
 		name: "thread",
-		version: "1.5",
+		version: "1.4",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "Quản lý các nhóm chat",
+			en: "Manage group chat"
+		},
+		longDescription: {
 			vi: "Quản lý các nhóm chat trong hệ thống bot",
 			en: "Manage group chat in bot system"
 		},

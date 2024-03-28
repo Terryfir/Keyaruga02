@@ -1,11 +1,15 @@
 module.exports = {
 	config: {
 		name: "refresh",
-		version: "1.2",
+		version: "1.1",
 		author: "NTKhang",
 		countDown: 60,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "làm mới thông tin",
+			en: "refresh information"
+		},
+		longDescription: {
 			vi: "làm mới thông tin nhóm chat hoặc người dùng",
 			en: "refresh information of group chat or user"
 		},

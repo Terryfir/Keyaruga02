@@ -4,11 +4,15 @@ const checkUrlRegex = /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[
 module.exports = {
 	config: {
 		name: "setrankup",
-		version: "1.2",
+		version: "1.1",
 		author: "NTKhang",
 		countDown: 0,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "Cấu hình rankup",
+			en: "Configure rankup"
+		},
+		longDescription: {
 			vi: "Cấu hình rankup",
 			en: "Configure rankup"
 		},

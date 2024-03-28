@@ -3,11 +3,15 @@ const fs = require("fs-extra");
 module.exports = {
 	config: {
 		name: "setlang",
-		version: "1.5",
+		version: "1.4",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "Cài đặt ngôn ngữ",
+			en: "Set default language"
+		},
+		longDescription: {
 			vi: "Cài đặt ngôn ngữ của bot cho nhóm chat hiện tại hoặc tất cả các nhóm chat",
 			en: "Set default language of bot for current chat or all chats"
 		},
