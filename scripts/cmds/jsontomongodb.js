@@ -4,11 +4,15 @@ module.exports = {
 	config: {
 		name: "jsontomongodb",
 		aliases: ["jsontomongo"],
-		version: "1.5",
+		version: "1.4",
 		author: "NTKhang",
 		countDown: 5,
 		role: 2,
-		description: {
+		shortDescription: {
+			vi: "Đồng bộ dữ liệu từ json sang mongodb",
+			en: "Synchronize data from json to mongodb"
+		},
+		longDescription: {
 			vi: "Đồng bộ dữ liệu từ json sang mongodb",
 			en: "Synchronize data from json to mongodb"
 		},

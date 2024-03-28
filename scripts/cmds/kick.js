@@ -1,11 +1,15 @@
 module.exports = {
 	config: {
 		name: "kick",
-		version: "1.3",
+		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
 		role: 1,
-		description: {
+		shortDescription: {
+			vi: "Kick thành viên",
+			en: "Kick member"
+		},
+		longDescription: {
 			vi: "Kick thành viên khỏi box chat",
 			en: "Kick member out of chat box"
 		},

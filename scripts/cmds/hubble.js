@@ -12,11 +12,15 @@ let hubbleData;
 module.exports = {
 	config: {
 		name: "hubble",
-		version: "1.3",
+		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "Xem ảnh từ Hubble",
+			en: "View Hubble images"
+		},
+		longDescription: {
 			vi: "Xem ảnh từ Hubble",
 			en: "View Hubble images"
 		},

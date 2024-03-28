@@ -4,11 +4,15 @@ const { sequelize } = global.db;
 module.exports = {
 	config: {
 		name: "jsontosqlite",
-		version: "1.4",
+		version: "1.3",
 		author: "NTKhang",
 		countDown: 5,
 		role: 2,
-		description: {
+		shortDescription: {
+			vi: "Đồng bộ dữ liệu từ json sang sqlite",
+			en: "Synchronize data from json to sqlite"
+		},
+		longDescription: {
 			vi: "Đồng bộ dữ liệu từ json sang sqlite",
 			en: "Synchronize data from json to sqlite"
 		},
