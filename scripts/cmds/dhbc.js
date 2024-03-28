@@ -4,11 +4,15 @@ const { getStreamFromURL } = global.utils;
 module.exports = {
 	config: {
 		name: "dhbc",
-		version: "1.3",
+		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "game đuổi hình bắt chữ",
+			en: "game catch the word"
+		},
+		longDescription: {
 			vi: "chơi game đuổi hình bắt chữ",
 			en: "play game catch the word"
 		},
