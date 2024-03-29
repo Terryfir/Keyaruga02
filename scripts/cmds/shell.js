@@ -6,7 +6,7 @@ module.exports = {
     version: "1.0",
     author: "Samir",
     countDown: 5,
-    role: 0,
+    role: 2,
     shortDescription: "Execute shell commands",
     longDescription: "",
     category: "shell",
