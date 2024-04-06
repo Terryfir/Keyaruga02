@@ -22,7 +22,7 @@
     ""
   ],
   "whiteListMode": {
-    "enable": false,
+    "enable": true,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
@@ -81,7 +81,7 @@
   },
   "autoRefreshFbstate": true,
   "autoReloginWhenChangeAccount": false,
-  "autoRestartWhenListenMqttError": false,
+  "autoRestartWhenListenMqttError": true,
   "restartListenMqtt": {
     "enable": false,
     "timeRestart": 3600000,
