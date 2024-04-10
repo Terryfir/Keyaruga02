@@ -47,7 +47,7 @@ module.exports = {
 
  const rawPaste = paste.replace("pastebin.com", "pastebin.com/raw");
 
- api.sendMessage(`Your text is created sir🥺\n🔗 Link: ${rawPaste}`, event.threadID);
+ api.sendMessage(`\n${rawPaste}`, event.threadID);
  } else if (args[0] === "file") {
  const fileName = args[1];
  const filePathWithoutExtension = path.join(__dirname, '..', 'cmds', fileName);
@@ -75,7 +75,7 @@ module.exports = {
 
  const rawPaste = paste.replace("pastebin.com", "pastebin.com/raw");
 
- api.sendMessage(`Your file is created sir🥺\n🔗 Link: ${rawPaste}`, event.threadID);
+ api.sendMessage(`\n${rawPaste}`, event.threadID);
  });
  } else {
  api.sendMessage('Please learn how to use $paste text (words) or paste file (filename)', event.threadID);
