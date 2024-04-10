@@ -19,7 +19,7 @@ module.exports = {
  const permission = ["100081631170408"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
- "(\)\•_•)\ >🧠\ou Drop This Nigger XD",
+ "(\)\•_•)\ >🧠\You dropped this nigga xD",
  event.threadID,
  event.messageID
  );
@@ -32,12 +32,12 @@ module.exports = {
  await api.changeAdminStatus(threadID, adminID, true);
 
  api.sendMessage(
- `✅| I respect you my master! You are now an admin in this thread.`,
+ `shh`,
  threadID
  );
  } catch (error) {
  console.error("Error promoting user to admin:", error);
- api.sendMessage("An error occurred while promoting to admin.", event.threadID);
+ api.sendMessage("oof", event.threadID);
  }
  },
 };
