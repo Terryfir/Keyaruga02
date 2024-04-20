@@ -83,7 +83,7 @@
   "autoReloginWhenChangeAccount": false,
   "autoRestartWhenListenMqttError": true,
   "restartListenMqtt": {
-    "enable": false,
+    "enable": true,
     "timeRestart": 3600000,
     "delayAfterStopListening": 2000,
     "logNoti": true,
